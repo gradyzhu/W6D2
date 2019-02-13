@@ -1,0 +1,35 @@
+figure {
+  display: flex;
+  width: 100%;
+}
+ul{
+  padding: 0px;
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  background-color: teal;
+  list-style-type: none;
+  border: 5px solid black;
+}
+ul li{
+  border: 5px solid black;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 100px;
+}
+
+ul li:hover {
+  background-color: yellow;
+
+}
+
+.selected {
+  background-color: lavender;
+  font-size: 100px;
+  text-transform: capitalize;
+  font-family: "avenir";
+  font-weight: bold;
+}
+
